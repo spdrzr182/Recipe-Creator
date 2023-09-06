@@ -13,24 +13,32 @@
 </head>
 <body>
 
-<div class="recipe-list-main">
-    <h1 style="margin-top: 0%; font-weight:bold;">Recipes List</h1>
-    
-    <div class="recipe-list">
-        <h2 style="box-shadow:0px 2px 1px #e0cb465e;">All Recipes</h2>
-        <ul>
-            <li>ceviche</li>
-            <li>espaghetti</li>
-        </ul>
+<div class="body-shopping-list">
+    <h1 class="shopping">Create Grocery List</h1>
+    <h2 class="shopping-sub-title">Click on Recipes to add ingredients</h2>
+    <div class="shopping-main-container">
+        <div class="recipes-container">
+            <h3 class="shopping">Recipes</h3>
+            <ul>
+                <li>ceviche</li>
+            </ul>
+        </div>
+        <div class="current-ingredients-container">
+            <h3 class="current-ingredients">Ingredients</h3>
+            <ul>
+                <li>apples</li>
+                <li>bread</li>
+                <li>wine</li>
+            </ul>
+        </div>
     </div>
-    <div class="buttons-recipe-list">
-        <button type="button" style="margin: 5px; width: 18%;" class="btn btn-warning btn-lg">Return</button>
 
+    <div class="btn-shopping">
+        <button type="button" class="btn btn-success btn-lg">Save </button>
+        <button type="button" class="btn btn-warning btn-lg">Cancel</button>
     </div>
-    
+
 </div>
-<div class="create">+</div>
-
 
 </body>
 <script src="/src/app.js"></script>
